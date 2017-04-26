@@ -46,6 +46,7 @@ removeDisplayVideoFrame(){
 removeEvent(){
   this.removeDisplayImage();
   this.displayVideo();
+  this.flushActiveObject();
 }
 removeDisplayImage(){
   this.activeObject.firstElementChild.classList.remove("video-player-image--display");
@@ -54,7 +55,9 @@ displayVideo(){
   this.activeObject.querySelector("iframe").classList.add("video-player--display");
   this.activeObject.querySelector("iframe").src="";
 }
-
+flushActiveObject(){
+  this.activeObject = null;
+}
 
 
 }
