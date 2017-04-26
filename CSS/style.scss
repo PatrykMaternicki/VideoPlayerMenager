@@ -1,0 +1,34 @@
+@import 'mixin.scss';
+@import 'normalize.css';
+
+.video-player-menager-container{
+  @include size (80%,auto);
+  margin:auto;
+}
+.video-player-menager-flexbox{
+  display:flex;
+  @include size(100%,auto);
+}
+.video-player-menager-wraper{
+  flex:60%;
+  background-color: yellow;
+  margin:25px;
+
+}
+.video-player-menager-imageContainer{
+  @include size(90%,auto);
+  margin:auto;
+}
+.video-player-image{
+  @include size(100%,200px);
+}
+.video-player-image--display{
+  display:none;
+}
+.video-player{
+  @include size(100%,200px);
+
+}
+.video-player--display{
+  display:none;
+}

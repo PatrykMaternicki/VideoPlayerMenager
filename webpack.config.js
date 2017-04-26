@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {
-  entry: './JS/VideoPlayerMenager/Core.js',
+  entry: './JS/app.js',
   output: {
     filename: 'client/videoMenager.min.js'
   },

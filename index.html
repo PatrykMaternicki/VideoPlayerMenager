@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="CSS/style.min.css" rel="stylesheet">
+</head>
+<body>
+  <main class="video-player-menager-container">
+
+
+    <section class="video-player-menager-flexbox">
+
+      <div class="video-player-menager-wraper">
+        <div class="video-player-menager-imageContainer" id="0" data-video='https://www.youtube.com/embed/dkWmeO4u1Zs?autoplay=1' >
+          <img class="video-player-image" src="Img/yotsuba0.png" alt="obrazekVideo">
+          <iframe class="video-player video-player--display" src="">
+          </iframe>
+          <button data-eventHandler="0">Play</button>
+        </div>
+      </div>
+
+      <div class="video-player-menager-wraper" >
+        <div class="video-player-menager-imageContainer" id="1" data-video='https://www.youtube.com/embed/dkWmeO4u1Zs?autoplay=1' >
+          <img class="video-player-image" src="Img/yotsuba1.jpg" alt="obrazekVideo">
+          <iframe class="video-player video-player--display"  src="">
+          </iframe>
+          <button data-eventHandler="1">Play</button>
+        </div>
+      </div>
+      </div>
+
+
+      <div class="video-player-menager-wraper">
+          <div class="video-player-menager-imageContainer" id="2" data-video='https://www.youtube.com/embed/rYqdINDYj2g?autoplay=1' >
+            <img class="video-player-image" src="Img/yotsuba2.jpg" alt="obrazekVideo">
+            <iframe class="video-player video-player--display" src="">
+            </iframe>
+            <button data-eventHandler="2">Play</button>
+
+          </div>
+      </div>
+
+    </section>
+    <div class="video-player-menager-controler">
+      <button data-button="right">Prawo</button><button data-button="left">Lewo</button>
+    </div>
+
+
+  </main>
+  <script src="client/videoMenager.min.js"></script>
+  <script src="JS/app.js"></script>
+</body>
+</html>
